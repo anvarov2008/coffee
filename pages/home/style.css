@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3D7B7;
+
+}
+
+
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+    
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 20px;
+    background-color: #F3D7B7;
+}
+
+.img {
+    width: 650px;
+    position: relative;
+    top: 30px;
+}
+
+.image-logo {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+    z-index: 1;
+}
+
+.div {
+    width: 500px;
+}
+
+
+
+.p {
+    color: #000000be;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+ margin-top: 10%;
+ margin-bottom: 10%;
+}
+
+.h1 {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button {
+display: inline-flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+background: #0A775F;}
+
+.second_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 168.55;
+}
+
+.second_heading_text>p {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+
+    
+
+.box_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_card {
+    color: #333;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: all-small-caps;
+}  
+
+
+.description_card {
+    color: #333;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+
+.box_card>img {
+    width: 465px;
+    height: 375px;
+    opacity: 1;
+    animation-name: scrool;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes scrool {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer {   
+    height: 160px;
+    background-color: #F3D7B7;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.DIV {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+
+.images {
+  width: 30px;
+height: 30px; 
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 25px;
+
+}
+
